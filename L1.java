@@ -5,7 +5,7 @@ class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for(int i = 0; i < nums.length; i++){
-            int res = target - nums[i];
+            int res = target - nums[i]; // the other number we need to find
             if(map.containsKey(res)){
                 return new int[]{map.get(res), i};
             }
