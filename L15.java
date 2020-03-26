@@ -2,7 +2,7 @@
 // (2) Iterate the array - O(n)
 // (3) Find valid triplets - O(n)
 // Overall time complexity: O(n^2)
-// SC:O(n)
+// SC:O(1)
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
